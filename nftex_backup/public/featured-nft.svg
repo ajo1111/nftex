@@ -1,0 +1,38 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="600" height="600" fill="url(#paint0_linear)" />
+  
+  <!-- 3D Cube -->
+  <path d="M300 150L450 250V450L300 550L150 450V250L300 150Z" fill="url(#paint1_linear)" stroke="white" stroke-width="2" stroke-linejoin="round" />
+  <path d="M300 150L450 250L300 350L150 250L300 150Z" fill="url(#paint2_linear)" stroke="white" stroke-width="2" stroke-linejoin="round" />
+  <path d="M300 350L450 250V450L300 550V350Z" fill="url(#paint3_linear)" stroke="white" stroke-width="2" stroke-linejoin="round" />
+  <path d="M300 350L150 250V450L300 550V350Z" fill="url(#paint4_linear)" stroke="white" stroke-width="2" stroke-linejoin="round" />
+  
+  <!-- NFT Text -->
+  <text x="300" y="350" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">NFT</text>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9333EA" />
+      <stop offset="0.5" stop-color="#7E22CE" />
+      <stop offset="1" stop-color="#6B21A8" />
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="150" y1="150" x2="450" y2="550" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#9333EA" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="150" y1="150" x2="450" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBBF24" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="300" y1="250" x2="450" y2="550" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#9333EA" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="paint4_linear" x1="150" y1="250" x2="300" y2="550" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#9333EA" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+</svg>
